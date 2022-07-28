@@ -3,6 +3,8 @@ body{
     width: 1440px;
 }
 .Main-container{
+    width: 100vw;
+    height: 15vh;
     font-family: Epilogue;
 }
 .Logo{
@@ -77,15 +79,22 @@ text-transform: uppercase;
     height: 61px;
     color: black;
     background-color:white;
+    cursor: pointer;
 }
-
+.Button1:hover{
+    background-color: #020230;
+    color: white;
+}
 .Button2{
     width: 256px;
     height: 61px;
     color: white;
     background-color: #020230;
+    cursor: pointer;
 }
-
+.Button2:hover{
+    background-color:#A060FF;
+}
 .Hero-text{
     padding: 25px 20px;
     max-width: 350px;

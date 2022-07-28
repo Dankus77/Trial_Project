@@ -1,13 +1,10 @@
-body{
-    height: 1716px;
-    width: 1440px;
-}
+
 .Main-container{
     font-family: Epilogue;
 }
 .Logo{
     position: relative;
-    right: -30px;
+    right: -160px;
     top: 30px;
     width: 78.41px;
     height: 24.8px;
@@ -16,41 +13,47 @@ body{
 .Hero-portrait{
     position: relative;
     top: -300px;
-    right: -150px;
+    right: -290px;
     z-index: 1;
-    width: 350px;
-    height: 600px;
+    width: 281px;
+    height: 482px;
 }
 
 .Curve1{
-    width: 287px;
-    height: 36px;
+    width: 231.19px;
+    height: 29px;
     position: relative;
     top: 170px;
-    right: -250px;
+    right: -370px;
     z-index: 2;
 }
 h1{
     width: 635px;
     height: 156px;
-    font-size: 50px;
+    font-size: 56px;
     position: relative;
     top: 150px;
-    right: -150px;
+    right: -183px;
     z-index: 3;
 }
 h2{
 font-size: 48px;
 }
 #companies{
+position: relative;
+right: 400px;
 padding: 1em;
 line-height: 0.5em;
 }
 #languages{
+position: relative;
+right: 315px;
 padding: 1em;
 line-height: 0.5em;
 }
 #leads{
+position: relative;
+right: 235px;
 padding: 1em;
 line-height: 0.5em;
 }
@@ -65,7 +68,7 @@ text-transform: uppercase;
 }
 .Access1{
     position: relative;
-    right: -800px;
+    right: -527px;
     top: 10px;
     width: 256px;
     height: 61px;
@@ -77,15 +80,22 @@ text-transform: uppercase;
     height: 61px;
     color: black;
     background-color:white;
+    cursor: pointer;
 }
-
+.Button1:hover{
+    background-color: #020230;
+    color: white;
+}
 .Button2{
     width: 256px;
     height: 61px;
     color: white;
     background-color: #020230;
+    cursor: pointer;
 }
-
+.Button2:hover{
+    background-color:#A060FF;
+}
 .Hero-text{
     padding: 25px 20px;
     max-width: 350px;
@@ -95,6 +105,7 @@ text-transform: uppercase;
     right: -130px;
     line-height: 2em;
 }
+
 .Section-one{
     text-align: justify;
 }
@@ -104,7 +115,8 @@ text-transform: uppercase;
     margin: 25px 20px;
     padding: 10px;
     position: relative;
-    top: -450px;
+    font-size: 16px;
+    top: -350px;
     right: -120px;
 }
 aside{
@@ -115,21 +127,23 @@ aside{
 ul{
     list-style-type: none;
     position: relative;
-    right: -250px;
-    top: -900px;
+    display: flex;
+    top: -350px;
 }
 .Jeremy-image{
     position: relative;
-    width: 359.81px;
-    height: 589.56px;
-    left: 100px;
-    top: -291px;
+    width: 252px;
+    height: 402px;
+    left: 425px;
+    top: -355px;
     z-index: 3;
 }
 .Pattern-blur{
     position: relative;
-    top: -220px;
-    right: 360px;
+    width: 417px;
+    height: 417px;
+    top: -270px;
+    right: -95px;
     z-index: 2;
 }
 
@@ -137,49 +151,45 @@ ul{
 blockquote{
     background-color: #020230;
     position: relative;
-    top: -900px;
-    right: -4px;
-    width: 1109px;
-    height: 589.56px;
+    top: -600px;
+    right: -164px;
+    width: 689px;
+    height: 684px;
     text-align: center;
     border-radius: 20px;
 
 }
 .Curve-two{
+    width: 49.27px;
     position: relative;
-    top: 200px;
-    left: -80px;
+    top: 250px;
+    left: -10px;
 }
 .Note1{
-    width: 299px;
-    height: 56px;
-    font-size: 46px;
+    height: 48px;
+    font-size: 40px;
     z-index: 4;
     position: relative;
-    right: -620px;
-    bottom: -50px;
-    border: 5px;
-    text-align: center;
+    bottom: -235px;
+    right: -210px;
     color: white;
 }
 .Note2{
-    width: 350px;
-    height: 175px;
-    font-size: 20px;
+    height: 96px;
+    width: 573px;
+    font-size: 18px;
     z-index: 4;
-    line-height: 1.5em;
+    line-height: 2em;
     position: relative;
-    right: -590px;
-    bottom: -50px;
-    border: 5px;
-    text-align: justify;
+    bottom: -245px;
+    right: -65px;
     color: white;
 }
 
 figcaption{
     position: relative;
-    right: -150px;
-    bottom: -70px;
+    bottom: -320px;
+    right: -3px;
     color: white;
     text-transform: uppercase;
 }
@@ -187,6 +197,8 @@ figcaption{
 .Footer-ul{
     display: flex;
     position: relative;
+    top: -650px;
+    right: 20px;
     align-items: center;
     padding: 5em;
 }
@@ -196,25 +208,26 @@ figcaption{
 }
 .Footer-logo{
     position: relative;
-    left:-300px;
+    left: 78px;
 }
 .Copyright{
+    width: 125px;
     position: relative;
-    right: -100px;
+    right: -350px;
 }
 #facebook-logo{
 position: relative;
 padding: 1em;
-right: -500px;
+right: -540px;
 cursor: pointer;
 }
 #twitter-logo{
 position: relative;
 padding: 1em;
-right: -500px;
+right: -540px;
 }
 #instagram-logo{
 position: relative;
 padding: 1em;
-right: -500px;
+right: -540px;
 }

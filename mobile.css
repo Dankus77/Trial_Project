@@ -1,13 +1,10 @@
-body{
-    height: 1716px;
-    width: 1440px;
-}
-.Main-container{
+
+.main-container{
     font-family: Epilogue;
 }
 .Logo{
     position: relative;
-    right: -30px;
+    right: -110px;
     top: 30px;
     width: 78.41px;
     height: 24.8px;
@@ -15,42 +12,59 @@ body{
 }
 .Hero-portrait{
     position: relative;
-    top: -300px;
-    right: -150px;
+    top: 150px;
+    right: 137px;
     z-index: 1;
-    width: 350px;
-    height: 600px;
+    width: 343px;
+    height: 240px;
 }
 
 .Curve1{
-    width: 287px;
-    height: 36px;
     position: relative;
-    top: 170px;
-    right: -250px;
+    top: 130px;
+    right: -220px;
     z-index: 2;
 }
+.Curve-one{
+position: relative;
+width: 151.47px;
+height: 19px;
+right: -40px;
+}
 h1{
-    width: 635px;
-    height: 156px;
-    font-size: 50px;
+    width: 343px;
+    height: 89px;
+    font-size: 38px;
     position: relative;
-    top: 150px;
-    right: -150px;
+    top: 110px;
+    right: -110px;
     z-index: 3;
 }
 h2{
 font-size: 48px;
 }
+#portrait-list{
+    width: 344px;
+    height: 313px;
+}
 #companies{
+position: relative;
+bottom: -500px;
+right: 550px;
 padding: 1em;
 line-height: 0.5em;
 }
 #languages{
+position: relative;
+bottom: -500px;
+right: 550px;
 padding: 1em;
 line-height: 0.5em;
 }
 #leads{
+position: relative;
+bottom: -500px;
+right: 550px;
 padding: 1em;
 line-height: 0.5em;
 }
@@ -65,34 +79,39 @@ text-transform: uppercase;
 }
 .Access1{
     position: relative;
-    right: -800px;
-    top: 10px;
+    right: -210px;
+    top: 0;
     width: 256px;
     height: 61px;
 }
 .Button1{
     position: relative;
-    right: -110px;
-    width: 256px;
-    height: 61px;
+    right: -210px;
+    width: 182px;
+    height: 48px;
     color: black;
     background-color:white;
 }
 
 .Button2{
-    width: 256px;
-    height: 61px;
+    position: relative;
+    width: 182px;
+    height: 48px;
+    bottom: -300px;
+    right: -50px;
     color: white;
     background-color: #020230;
+    cursor: pointer;
 }
 
 .Hero-text{
     padding: 25px 20px;
-    max-width: 350px;
-    height: 96px;
+    max-width: 343px;
+    height: 84px;
+    font-size: 16px;
     position: relative;
-    top: 100px;
-    right: -130px;
+    top: 70px;
+    left: 90px;
     line-height: 2em;
 }
 .Section-one{
@@ -104,8 +123,9 @@ text-transform: uppercase;
     margin: 25px 20px;
     padding: 10px;
     position: relative;
-    top: -450px;
-    right: -120px;
+    font-size: 16px;
+    bottom: -70px;
+    right: -31px;
 }
 aside{
     width: 50%;
@@ -115,21 +135,22 @@ aside{
 ul{
     list-style-type: none;
     position: relative;
-    right: -250px;
-    top: -900px;
+    top: -350px;
 }
 .Jeremy-image{
     position: relative;
-    width: 359.81px;
-    height: 589.56px;
-    left: 100px;
-    top: -291px;
+    width: 252px;
+    height: 402px;
+    left: 185px;
+    top: 275px;
     z-index: 3;
 }
 .Pattern-blur{
     position: relative;
-    top: -220px;
-    right: 360px;
+    width: 417px;
+    height: 417px;
+    top: 350px;
+    right: 150px;
     z-index: 2;
 }
 
@@ -137,49 +158,45 @@ ul{
 blockquote{
     background-color: #020230;
     position: relative;
-    top: -900px;
-    right: -4px;
-    width: 1109px;
-    height: 589.56px;
+    top: 20px;
+    left: 75px;
+    width: 375px;
+    height: 748px;
     text-align: center;
     border-radius: 20px;
 
 }
 .Curve-two{
+    width: 49.27px;
     position: relative;
-    top: 200px;
-    left: -80px;
+    top: 250px;
+    left: -10px;
 }
 .Note1{
-    width: 299px;
-    height: 56px;
-    font-size: 46px;
+    height: 48px;
+    font-size: 40px;
     z-index: 4;
     position: relative;
-    right: -620px;
-    bottom: -50px;
-    border: 5px;
-    text-align: center;
+    bottom: -245px;
+    left: 33px;
     color: white;
 }
 .Note2{
-    width: 350px;
-    height: 175px;
-    font-size: 20px;
+    width: 343px;
+    height: 160px;
+    font-size: 18px;
     z-index: 4;
     line-height: 1.5em;
     position: relative;
-    right: -590px;
-    bottom: -50px;
-    border: 5px;
-    text-align: justify;
+    bottom: -260px;
+    left: 13px;
     color: white;
 }
 
 figcaption{
     position: relative;
-    right: -150px;
-    bottom: -70px;
+    bottom: -320px;
+    right: 10px;
     color: white;
     text-transform: uppercase;
 }
@@ -187,6 +204,7 @@ figcaption{
 .Footer-ul{
     display: flex;
     position: relative;
+    top: -50px;
     align-items: center;
     padding: 5em;
 }
@@ -196,25 +214,36 @@ figcaption{
 }
 .Footer-logo{
     position: relative;
-    left:-300px;
+    top: -25px;
+    width: 81px;
+    height: 32px;
+    font-size: 32px;
+    left: -70px;
 }
 .Copyright{
+    width: 125px;
+    height: 32px;
     position: relative;
-    right: -100px;
+    bottom: -30px;
+    left: -160px;
+    font-size: 15px;
 }
 #facebook-logo{
 position: relative;
-padding: 1em;
-right: -500px;
+padding: 1.3em;
+bottom: -70px;
+left: -310px;
 cursor: pointer;
 }
 #twitter-logo{
 position: relative;
-padding: 1em;
-right: -500px;
+bottom: -70px;
+padding: 1.3em;
+left: -310px;
 }
 #instagram-logo{
 position: relative;
-padding: 1em;
-right: -500px;
+bottom: -70px;
+padding: 1.3em;
+left: -310px;
 }
